@@ -13,9 +13,9 @@ def run_guessing_game
       puts "Goodbye"
     when input == computerGuess
       puts "You guessed the correct number!"
+    when input != computerGuess
+      puts "The computer guessed 5."
     end
-  when input != computerGuess
-    puts "The computer guessed 5."
   end
 
 end
